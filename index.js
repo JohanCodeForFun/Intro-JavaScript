@@ -172,3 +172,8 @@ function jump() {
 
 bindSpacebarToJump()
 */
+
+let score = 500;
+
+const header = document.querySelector('.header-score');
+header.textContent = `Score: ${score}`
